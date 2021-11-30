@@ -25,6 +25,6 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route('/bmod')
     def hello():
-        return 'Bmo'
+        return 'Bmod!!!'
 
     return app
