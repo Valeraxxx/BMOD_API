@@ -20,10 +20,18 @@ class Convert(Resource):
 
   pass
 
+class PackageFetch(Resource):
+  def get(self):
+    ##TODO
+    print("")
+
 
 c.add_resource(Convert, "/convert")
 
 c.add_resource(Hooks, '/hooks')
+
+c.add_resource(PackageFetch, '/pkg')
+
 
 if __name__ == '__main__':
   b.run()
