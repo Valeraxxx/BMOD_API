@@ -22,7 +22,7 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    # a simple page that says hello
+    # a simple page that says bmod
     @app.route('/bmod')
     def hello():
         return 'Bmod!!!'
