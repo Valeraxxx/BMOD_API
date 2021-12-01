@@ -2,6 +2,8 @@ from flask import Flask
 
 from flask_restful import Resource, Api, reqparse
 
+
+##Domain Needed 
 b = Flask(__name__)
 c = Api(b)
 
