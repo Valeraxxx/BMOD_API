@@ -2,7 +2,7 @@ from flask import Flask
 
 from flask_restful import Resource, Api, reqparse
 
-
+##Authentication for the API will be added soon.
 ##API Is hosted at: "api.bmodd.ga/"
 b = Flask(__name__)
 c = Api(b)
@@ -37,6 +37,8 @@ class PackageFetch(Resource):
     return "Nice"
 
     pass
+
+
 
 
 c.add_resource(Convert, "/convert")
