@@ -10,7 +10,7 @@ c = Api(b)
 class Reg(Resource):
 
   def get(self):
-
+    ##Root server folder.
     return "Resource found"
 
     pass
@@ -45,7 +45,7 @@ c.add_resource(Hooks, '/hooks')
 
 c.add_resource(PackageFetch, '/pkg')
 
-c.add_resource(Reg), '/'
+c.add_resource(Reg, '/')
 
 
 if __name__ == '__main__':
