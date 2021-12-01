@@ -11,21 +11,23 @@ class Hooks(Resource):
   ##Hook DataSet as yet to be created.
   def get(self):
     ##TODO
-    print("")
+    return "WOwooooo hooks endpoint works!"
 
   pass
 
 class Convert(Resource):
   def get(self):
     ##TODO
-    print("")
+    return "THE CONVERT ENDPOINT WORKS!!!!"
 
   pass
 
 class PackageFetch(Resource):
   def get(self):
     ##TODO
-    print("")
+    return "Nice"
+
+    pass
 
 
 c.add_resource(Convert, "/convert")
