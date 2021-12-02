@@ -20,21 +20,21 @@ class Hooks(Resource):
   ##Hook DataSet as yet to be created.
   def get(self):
     ##TODO
-    return "WOwooooo hooks endpoint works!"
+    return "Note: No Redirection needed!"
 
   pass
 
 class Convert(Resource):
   def get(self):
     ##TODO
-    return "THE CONVERT ENDPOINT WORKS!!!!"
+    return "Note: This is not a real endpoint!!!!!! This endpoint is to be accessed and redirected to the conversion server. Reason? because I don't feel like sending the request from the client :)" ## "https://conversion.bmodd.ga": No use in connecting to this domain as it'll return a 401, Use the Client! 
 
   pass
 
 class PackageFetch(Resource):
   def get(self):
     ##TODO
-    return "Nice"
+    return "Note: This endpoint redirects to a package specified in the get request of the client. If the package isn't correct the endpoint will return a 404."
 
     pass
 
